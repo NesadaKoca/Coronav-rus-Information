@@ -1,0 +1,10 @@
+<resources>
+    //APP Name
+    <string name="app_name">Coronavìrus Information</string>
+
+    //Strings
+    <string name="app_id">ca-app-pub-6437140862228644~6467379815</string>
+    <string name="detailsActivity">detailsActivity</string>
+    <string name="no_network">No Network</string>
+    <string name="web_view_url">url</string>
+</resources>
