@@ -1,6 +1,6 @@
-package com.improvetogether.coronatest.network
+package com.nesada.coronaInformation.network
 
-import com.improvetogether.coronatest.data.Tips
+import com.nesada.coronaInformation.data.Tips
 import retrofit2.Call
 import retrofit2.http.GET
 

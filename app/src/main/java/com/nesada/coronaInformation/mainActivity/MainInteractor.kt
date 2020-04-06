@@ -1,7 +1,7 @@
-package com.improvetogether.coronatest.mainActivity
+package com.nesada.coronaInformation.mainActivity
 
-import com.improvetogether.coronatest.data.Tips
-import com.improvetogether.coronatest.network.CoronaRest
+import com.nesada.coronaInformation.data.Tips
+import com.nesada.coronaInformation.network.CoronaRest
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -14,7 +14,8 @@ class MainInteractor(val mainPresenter: MainPresenter) {
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
-    val coronaRest: CoronaRest = retrofit.create(CoronaRest::class.java)
+    val coronaRest: CoronaRest = retrofit.create(
+        CoronaRest::class.java)
 
     fun startNetworkRequest() {
         val call = coronaRest.getTips

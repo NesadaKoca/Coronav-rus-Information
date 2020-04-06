@@ -1,4 +1,4 @@
-package com.improvetogether.coronatest.utils
+package com.nesada.coronaInformation.utils
 
 import android.content.Context
 import android.graphics.Rect

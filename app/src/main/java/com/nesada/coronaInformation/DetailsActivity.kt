@@ -1,14 +1,15 @@
-package com.improvetogether.coronatest
+package com.nesada.coronaInformation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import com.improvetogether.coronatest.data.Tips
-import com.improvetogether.coronatest.mainActivity.MainActivityView
+import com.nesada.coronaInformation.data.Tips
+import com.nesada.coronaInformation.mainActivity.MainActivityView
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_details.*
 
-class DetailsActivity : AppCompatActivity(), MainActivityView {
+class DetailsActivity : AppCompatActivity(),
+    MainActivityView {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

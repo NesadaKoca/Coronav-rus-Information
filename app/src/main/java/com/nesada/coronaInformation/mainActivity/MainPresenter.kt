@@ -1,9 +1,10 @@
-package com.improvetogether.coronatest.mainActivity
+package com.nesada.coronaInformation.mainActivity
 
-import com.improvetogether.coronatest.data.Tips
+import com.nesada.coronaInformation.data.Tips
 
 class MainPresenter(val mainActivityView: MainActivityView?) {
-    private var mainInteractor: MainInteractor = MainInteractor(this)
+    private var mainInteractor: MainInteractor =
+        MainInteractor(this)
 
     fun startNetworkRequest() {
         mainInteractor.startNetworkRequest()

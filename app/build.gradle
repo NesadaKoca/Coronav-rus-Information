@@ -6,7 +6,7 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        applicationId "com.improvetogether.coronatest"
+        applicationId "com.nesada.coronaInformation"
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 1
@@ -42,7 +42,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.1.0'
 
     //JSON Parsing
-    implementation "com.squareup.retrofit2:converter-gson:2.4.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.5.0"
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.8.1'
 
     implementation 'com.google.code.gson:gson:2.8.5'

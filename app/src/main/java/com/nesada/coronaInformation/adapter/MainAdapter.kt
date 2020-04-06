@@ -1,4 +1,4 @@
-package com.improvetogether.coronatest.adapter
+package com.nesada.coronaInformation.adapter
 
 
 import android.content.Intent
@@ -8,9 +8,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import com.improvetogether.coronatest.DetailsActivity
-import com.improvetogether.coronatest.R
-import com.improvetogether.coronatest.data.Tips
+import com.nesada.coronaInformation.DetailsActivity
+import com.nesada.coronaInformation.R
+import com.nesada.coronaInformation.data.Tips
 import com.squareup.picasso.Picasso
 
 class MainAdapter(val list: List<Tips.Item?>?) : RecyclerView.Adapter<MainAdapter.ListItemViewHolder>() {

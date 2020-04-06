@@ -1,6 +1,4 @@
-package com.improvetogether.coronatest.data
-
-import com.google.gson.annotations.SerializedName
+package com.nesada.coronaInformation.data
 
 data class Tips(
 	val allItems: List<Item?>?
