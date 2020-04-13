@@ -1,5 +1,4 @@
-# Coronav-rus-Information is a mobile application which shows information about Coronavirus, explaining what it is;
-what are the symptoms; how it is transmitted; how to prevent it; and a story about how all this started.
+# Coronav-rus-Information is a mobile application which shows information about Coronavirus, explaining what it is; what are the symptoms; how it is transmitted; how to prevent it; and a story about how all this started.
 
 ![1](https://user-images.githubusercontent.com/20868025/79133686-6f98fa00-7d7a-11ea-91b5-429d5f31c81e.png)
 
